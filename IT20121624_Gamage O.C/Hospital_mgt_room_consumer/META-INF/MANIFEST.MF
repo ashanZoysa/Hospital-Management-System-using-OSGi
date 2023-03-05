@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Hospital_mgt_room_consumer
+Bundle-SymbolicName: Hospital_mgt_room_consumer
+Bundle-Activator: hospital_mgt_room_consumer.Activator
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: hospital_mgt_room_producer,
+ org.osgi.framework;version="1.3.0"
+
+
