@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: HospitalEmployee_Consumer
+Bundle-SymbolicName: HospitalEmployee_Consumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: hospitalemployee_consumer.ServiceActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-12
+Automatic-Module-Name: HospitalEmployee.Consumer
+Import-Package: HospitalEmployee_ProducerService,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
